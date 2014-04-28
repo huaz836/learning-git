@@ -138,3 +138,7 @@ Git 收取的是项目历史的所有数据（每一个文件的每一个版本�
 
     $ git commit -m "Story 182: Fix benchmarks for speed"
 
+
+### 跳过使用暂存区域
+
+只要在提交的时候，给 `git commit` 加上 `-a` 选项，Git 就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 `git add` 步骤
