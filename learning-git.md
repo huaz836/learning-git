@@ -165,3 +165,13 @@ Git 收取的是项目历史的所有数据（每一个文件的每一个版本�
 
     $ git mv file_from file_to
     
+    
+## 2.3 查看提交历史
+
+用  `git log` 命令
+
+    $ git log
+    $ git log -p -2
+    $ git log -U1 --word-diff
+    $ git log --stat
+    
